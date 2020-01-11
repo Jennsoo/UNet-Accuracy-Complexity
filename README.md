@@ -1,4 +1,5 @@
 # UNet-Accuracy-Complexity
+Pytorch implementation of the paper "Deep Neural Network for Multi-Organ Segmentation with Higher Accuracy and Lower Complexity"
 # Code
 The code implementation refers to https://github.com/jfzhang95/pytorch-deeplab-xception.  
 The baseline U-Net architecture refers to https://github.com/milesial/Pytorch-UNet.  
