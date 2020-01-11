@@ -6,4 +6,5 @@ Accuracy-Complexity Adjustment Module (ACAM) refers to https://github.com/d-li14
 Multi-scale Adjustable Module (MAM) refers to https://github.com/implus/SKNet.  
 # Train
 Change the path in mypath.py  
-        CUDA_VISIBLE_DEVICES=0 python3 train.py --baseline unet2doct --lr 0.03 --workers 4 --epochs 100 --batch-size 4 --gpu-ids 0 --checkname journal --eval-interval 1 --dataset ctchest
+
+    CUDA_VISIBLE_DEVICES=0 python3 train.py --baseline unet2doct --lr 0.03 --workers 4 --epochs 100 --batch-size 4 --gpu-ids 0 --checkname journal --eval-interval 1 --dataset ctchest
